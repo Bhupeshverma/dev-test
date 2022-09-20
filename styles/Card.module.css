@@ -1,0 +1,43 @@
+.card {
+  margin: 16px;
+  width: 18rem;
+  border: 1px solid #f1f1f1;
+  background: white;
+  padding: 16px;
+  height: fit-content;
+}
+.cardHeader {
+  color: #383b3e;
+  font-size: 14px;
+  font-weight: 500;
+}
+.statSection {
+  display: flex;
+  place-content: space-between;
+}
+.stats {
+  flex: 1;
+  text-align: center;
+}
+.statText {
+  font-size: 12px;
+  color: rgb(33 37 41 / 60%);
+}
+.statRate {
+  font-weight: bold;
+  font-size: 20px;
+}
+.vl {
+  border-left: 1px solid #f1f1f1;
+  height: inherit;
+}
+.listItem {
+  font-size: 14px;
+  color: #636464;
+}
+.cardLink {
+  color: #383b3e;
+}
+.cardLink:hover {
+  color: #383b3e;
+}
