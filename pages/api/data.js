@@ -3,10 +3,10 @@
 export default async function handler(req, res) {
   const page = req.query.page || 1;
   const resData = await fetch(
-    `https://api.ratecity.com.au/v2/home-loans?page=${page}`,
+    `${process.env.BASE_API}?page=${page}`,
     {
       headers: {
-        "x-api-key": "MaDX2Oo31g3FLAHesYHtGa3rHe40uqkJ8TmbPJn9"
+        "x-api-key": process.env.API_KEY
       }
     }
   );
